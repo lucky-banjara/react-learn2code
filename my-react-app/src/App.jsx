@@ -5,6 +5,7 @@ import Card from "./Card.jsx"
 import Student from "./Student.jsx"
 import UserGreeting from "./UserGreeting.jsx"
 import List from "./List.jsx"
+import Button from "./Button.jsx"
 
 function App() {
 
@@ -31,9 +32,10 @@ function App() {
      {/* < Student name= "Spongebob" age={30} isStudent={true}/> */}
      < UserGreeting isLoggedIn={true} username="Anjan" />
      {/* <Food /> */}
+     <Button/>
 
-     {fruits.length > 0 ? <List items = {fruits} category="Fruits With Calories Detail"/>: null}
-     {vegetables.length > 0 && <List items = {vegetables} category="Vegetables With Calories Detail"/>}
+     {fruits.length > 0 ? <List items = {fruits} category="Fruits With Calories Details"/>: null}
+     {/* {vegetables.length > 0 && <List items = {vegetables} category="Vegetables With Calories Detail"/>} */}
 
      <Footer />
      
