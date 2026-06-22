@@ -8,6 +8,8 @@ import List from "./List.jsx"
 import Button from "./Button.jsx"
 import MyComponent from "./MyComponent.jsx"
 import Counter from "./Counter.jsx"
+import MyCompo from "./MyCompo.jsx"
+import ColorPicker from "./ColorPicker.jsx"
 
 function App() {
 
@@ -30,7 +32,7 @@ function App() {
   return (
     <>
      <Header />
-     < Card />
+     < Card style="center"/>
      {/* < Student name= "Spongebob" age={30} isStudent={true}/> */}
      < UserGreeting isLoggedIn={true} username="Anjan" />
      {/* <Food /> */}
@@ -38,8 +40,10 @@ function App() {
 
      {/* {fruits.length > 0 ? <List items = {fruits} category="Fruits With Calories Details"/>: null} */}
      {/* {vegetables.length > 0 && <List items = {vegetables} category="Vegetables With Calories Detail"/>} */}
-     < MyComponent/>
-     <Counter />
+     {/* < MyComponent/> */}
+     {/* <Counter /> */}
+     {/* <MyCompo/> */}
+     <ColorPicker />
      <Footer />
      
      
