@@ -6,6 +6,8 @@ import Student from "./Student.jsx"
 import UserGreeting from "./UserGreeting.jsx"
 import List from "./List.jsx"
 import Button from "./Button.jsx"
+import MyComponent from "./MyComponent.jsx"
+import Counter from "./Counter.jsx"
 
 function App() {
 
@@ -32,11 +34,12 @@ function App() {
      {/* < Student name= "Spongebob" age={30} isStudent={true}/> */}
      < UserGreeting isLoggedIn={true} username="Anjan" />
      {/* <Food /> */}
-     <Button/>
+     {/* <Button/> */}
 
-     {fruits.length > 0 ? <List items = {fruits} category="Fruits With Calories Details"/>: null}
+     {/* {fruits.length > 0 ? <List items = {fruits} category="Fruits With Calories Details"/>: null} */}
      {/* {vegetables.length > 0 && <List items = {vegetables} category="Vegetables With Calories Detail"/>} */}
-
+     < MyComponent/>
+     <Counter />
      <Footer />
      
      
