@@ -10,6 +10,7 @@ import MyComponent from "./MyComponent.jsx"
 import Counter from "./Counter.jsx"
 import MyCompo from "./MyCompo.jsx"
 import ColorPicker from "./ColorPicker.jsx"
+import MyObject from "./MyObject.jsx"
 
 function App() {
 
@@ -41,8 +42,9 @@ function App() {
      {/* {fruits.length > 0 ? <List items = {fruits} category="Fruits With Calories Details"/>: null} */}
      {/* {vegetables.length > 0 && <List items = {vegetables} category="Vegetables With Calories Detail"/>} */}
      {/* < MyComponent/> */}
-     <Counter />
+     {/* <Counter /> */}
      {/* <MyCompo/> */}
+     <MyObject/>
      <ColorPicker />
      <Footer />
      

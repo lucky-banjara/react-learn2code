@@ -4,7 +4,7 @@ function Footer(){
 
     return(
       <footer>
-        <p>&copy; {new Date().getFullYear()} Your Website Name</p>
+        <p>&copy; {new Date().getFullYear()} FIFA World Cup</p>
       </footer>
 
 
