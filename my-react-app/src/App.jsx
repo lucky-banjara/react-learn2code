@@ -41,7 +41,7 @@ function App() {
      {/* {fruits.length > 0 ? <List items = {fruits} category="Fruits With Calories Details"/>: null} */}
      {/* {vegetables.length > 0 && <List items = {vegetables} category="Vegetables With Calories Detail"/>} */}
      {/* < MyComponent/> */}
-     {/* <Counter /> */}
+     <Counter />
      {/* <MyCompo/> */}
      <ColorPicker />
      <Footer />

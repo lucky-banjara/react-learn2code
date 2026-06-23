@@ -152,3 +152,97 @@ code {
 .student p{
   margin:0;
 }
+
+
+
+
+/* ColorPicker.css */
+
+/* Center the application layout */
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Style the main title */
+.color-picker-container h1 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #333333;
+  font-size: 2rem;
+}
+
+/* Create the color preview card */
+.color-display {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.2s ease;
+}
+
+/* Format the text inside the display box */
+.color-display p {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #222222;
+  font-size: 1rem;
+  margin: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Style the control label */
+.color-picker-container label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  color: #555555;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Modernize the native HTML color input */
+.color-picker-container input[type="color"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 70px;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: none;
+  padding: 0;
+}
+
+/* Ensure the color swatch handles rounding nicely */
+.color-picker-container input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.color-picker-container input[type="color"]::-webkit-color-swatch {
+  border: 2px solid #dddddd;
+  border-radius: 8px;
+}
+
+.color-picker-container input[type="color"]::-moz-color-swatch {
+  border: 2px solid #dddddd;
+  border-radius: 8px;
+}
