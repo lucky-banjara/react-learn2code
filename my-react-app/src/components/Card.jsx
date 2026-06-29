@@ -1,5 +1,5 @@
 
-import profilePic from "./assets/unnamed.jpg"
+import profilePic from "../assets/unnamed.jpg"
 
 
 function Card(){

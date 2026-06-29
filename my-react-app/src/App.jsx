@@ -1,16 +1,17 @@
-import Header from "./Header.jsx"
-import Footer from "./Footer.jsx"
-import Food from "./Food.jsx"
-import Card from "./Card.jsx"
-import Student from "./Student.jsx"
-import UserGreeting from "./UserGreeting.jsx"
-import List from "./List.jsx"
-import Button from "./Button.jsx"
-import MyComponent from "./MyComponent.jsx"
-import Counter from "./Counter.jsx"
-import MyCompo from "./MyCompo.jsx"
-import ColorPicker from "./ColorPicker.jsx"
-import MyObject from "./MyObject.jsx"
+import Header from "./components/Header.jsx"
+import Footer from "./components/Footer.jsx"
+import Food from "./components/Food.jsx"
+import Card from "./components/Card.jsx"
+import Student from "./components/Student.jsx"
+import UserGreeting from "./components/UserGreeting.jsx"
+import List from "./components/List.jsx"
+import Button from "./components/Button.jsx"
+import MyComponent from "./components/MyComponent.jsx"
+import Counter from "./components/Counter.jsx"
+import MyCompo from "./components/MyCompo.jsx"
+import ColorPicker from "./components/ColorPicker.jsx"
+import MyObject from "./components/MyObject.jsx"
+import ToDoList from "./components/ToDoList.jsx"
 
 function App() {
 
@@ -44,7 +45,8 @@ function App() {
      {/* < MyComponent/> */}
      {/* <Counter /> */}
      {/* <MyCompo/> */}
-     <MyObject/>
+     {/* <MyObject/> */}
+     {/* <ToDoList /> */}
      <ColorPicker />
      <Footer />
      
